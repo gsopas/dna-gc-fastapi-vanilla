@@ -15,4 +15,4 @@ Health: /ping
 
 ## gif
 
-[.gif](docs/DNA-GC-Calc.gif)
+![.gif](docs/DNA-GC-Calc.gif)
