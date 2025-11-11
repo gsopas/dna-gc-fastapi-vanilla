@@ -1,12 +1,14 @@
 body { font-family: system-ui, Arial, sans-serif; margin: 0; }
 main { max-width: 720px; margin: 4rem auto; padding: 1rem; }
 
-/* Subtitle under the H1 */
+/* Title + subtitle */
+h1 { margin-bottom: .25rem; }
 .subtitle {
-  font-size: 0.95rem;
+  font-size: 0.9rem;      /* clearly smaller than body (1rem) */
   color: #555;
-  margin-top: 0.25rem;
-  line-height: 1.4;
+  line-height: 1.6;
+  margin: 0.25rem 0 1rem; /* space before the form */
+  max-width: 60ch;        /* nicer line length */
 }
 
 textarea { width: 100%; }
