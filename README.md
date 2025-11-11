@@ -3,7 +3,7 @@
 - Backend: FastAPI (`/ping`, `POST /gc`) on Railway  
 - Frontend: HTML/CSS/JS on GitHub Pages (`/docs`)
 
-## Local
+## Settings
 pip install -r backend/requirements.txt
 uvicorn backend.app:app --host 0.0.0.0 --port 8000
 
@@ -15,3 +15,7 @@ Build: pip install -r backend/requirements.txt
 Start: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
 Health: /ping
 
+## URL
+
+[URL](https://gsopas.github.io/dna-gc-fastapi-vanilla/)
+[.gif](docs/DNA-GC-Calc.gif)
