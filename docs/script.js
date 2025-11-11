@@ -1,5 +1,5 @@
-// set this after you deploy the backend on Railway
-const API_BASE = "https://YOUR-RAILWAY-APP.up.railway.app";
+// I will put the backend URL here
+const API_BASE = "https://dna-gc-fastapi-vanilla.onrender.com";
 
 const form = document.getElementById("dna-form");
 const seqEl = document.getElementById("seq");
